@@ -1,0 +1,19 @@
+{
+    "name": "qq-bot/framework",
+    "description": "QQ Official Bot Framework for PHP 8.5 - Multi-user, Webhook Plugin System, Logging",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "ext-sodium": "*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "QQBot\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
